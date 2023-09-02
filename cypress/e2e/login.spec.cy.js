@@ -1,4 +1,4 @@
-import Login from "../page-object/login";
+import Login from "./page-object/Login";
 
 
 describe("Cadastro de usuário", () => {

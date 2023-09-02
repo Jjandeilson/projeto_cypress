@@ -1,5 +1,5 @@
-import Carrinho from "../page-object/Carrinho";
-import Login from "../page-object/login";
+import Carrinho from "./page-object/Carrinho";
+import Login from "./page-object/login";
 
 describe("Funcionalidades do carrinho de compra", () => {
     beforeEach(() => cy.visit('https://automationexercise.com'));

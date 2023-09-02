@@ -1,5 +1,5 @@
-import ListaProduto from "../page-object/ListaProduto";
-import Login from "../page-object/login";
+import ListaProduto from "./page-object/ListaProduto";
+import Login from "./page-object/login";
 
 describe("Listagem de produtos", () => {
     beforeEach(() => cy.visit('https://automationexercise.com'));
