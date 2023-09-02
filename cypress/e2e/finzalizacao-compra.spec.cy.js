@@ -1,6 +1,6 @@
 import Carrinho from "./page-object/Carrinho";
 import FinalizarCompra from "./page-object/FinalizarCompra";
-import Login from "./page-object/login";
+import Login from "./page-object/Login";
 
 describe("Funcionalidades de finalizar uma compra", () => {
     beforeEach(() => cy.visit('https://automationexercise.com'));
